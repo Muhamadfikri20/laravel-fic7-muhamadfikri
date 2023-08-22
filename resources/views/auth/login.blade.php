@@ -16,7 +16,7 @@
 
         <div class="card-body">
             <form method="POST"
-                action="#"
+                action="{{ route('login') }}"
                 class="needs-validation"
                 novalidate="">
                 <div class="form-group">
@@ -26,7 +26,6 @@
                         class="form-control"
                         name="email"
                         tabindex="1"
-                        required
                         autofocus>
                     <div class="invalid-feedback">
                         Please fill in your email
@@ -49,7 +48,7 @@
                         class="form-control"
                         name="password"
                         tabindex="2"
-                        required>
+                      >
                     <div class="invalid-feedback">
                         please fill in your password
                     </div>
