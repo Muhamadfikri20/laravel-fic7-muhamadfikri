@@ -14,5 +14,31 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+ // return view('welcome');
+ return view('pages.blank-page', ['type_menu' => '']);
 });
+
+// Route::get('/login', function () {
+//     // return view('welcome');
+//  return view('auth.login');
+// });
+
+// Route::get('/register', function () {
+//     // return view('welcome');
+//  return view('auth.register');
+// });
+
+// Route::get('/reset', function () {
+//     // return view('welcome');
+//  return view('auth.reset');
+// });
+
+// Route::get('/forgot', function () {
+//     // return view('welcome');
+//  return view('auth.forgot');
+// });
+
+// Route::get('/verify', function () {
+//     // return view('welcome');
+//  return view('auth.verify');
+// });
