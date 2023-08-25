@@ -14,34 +14,29 @@
 
         <div class="card-body">
             <p class="text-muted">We will send a link to reset your password</p>
-            {{-- @if (section('status'))
+            @if (session('status'))
                 <div class="mb-4 font-medium text-sm text-green-600">
                     {{ session('status') }}
                 </div>
-            @endif --}}
+            @endif
             <form method="POST" action="{{ route('password.email') }}">
                 @csrf
                 <div class="form-group">
                     <label for="email">Email</label>
-                    <input id="email" 
-                        type="email"
+                    <input id="email" type="email"
                         class="form-control @error('email')
                         is-invalid
-                        @enderror"
-                        name="email"
-                        tabindex="1"
-                        autofocus>
-                        @error('email')
+                    @enderror"
+                        name="email" tabindex="1" autofocus>
+                    @error('email')
                         <div class="invalid-feedback">
                             {{ $message }}
                         </div>
-                        @enderror
+                    @enderror
                 </div>
 
                 <div class="form-group">
-                    <button type="submit"
-                        class="btn btn-primary btn-lg btn-block"
-                        tabindex="4">
+                    <button type="submit" class="btn btn-primary btn-lg btn-block" tabindex="4">
                         Forgot Password
                     </button>
                 </div>
