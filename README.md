@@ -1,3 +1,19 @@
+[
+<img width="1775" alt="ForgotPassword" src="https://github.com/Muhamadfikri20/laravel-fic7-muhamadfikri/assets/46203393/20f4f7db-4ba6-4d01-801b-68caf66a8d2e">
+<img width="1779" alt="FormResetPasword" src="https://github.com/Muhamadfikri20/laravel-fic7-muhamadfikri/assets/46203393/5eeb08f6-b5c6-48ec-ad67-c11d530bb241">
+<img width="897" alt="ListUser" src="https://github.com/Muhamadfikri20/laravel-fic7-muhamadfikri/assets/46203393/5ae32e5f-909a-40ea-96fc-efb68f0a8f25">
+<img width="1779" alt="Login" src="https://github.com/Muhamadfikri20/laravel-fic7-muhamadfikri/assets/46203393/79d17242-e8d4-4a83-b670-89958863ae31">
+<img width="1787" alt="Pagination Search" src="https://github.com/Muhamadfikri20/laravel-fic7-muhamadfikri/assets/46203393/73f1a182-9584-412f-9644-1d2362d14743">
+<img width="1789" alt="Profile" src="https://github.com/Muhamadfikri20/laravel-fic7-muhamadfikri/assets/46203393/455f966a-283a-4e57-ad14-b74544ba5143">
+<img width="1784" alt="register" src="https://github.com/Muhamadfikri20/laravel-fic7-muhamadfikri/assets/46203393/79b50f75-046a-4e14-adb4-e4c6fa84f5e9">
+<img width="903" alt="resendEmail" src="https://github.com/Muhamadfikri20/laravel-fic7-muhamadfikri/assets/46203393/1cff7ca0-0af7-4367-af30-5ae71feb9817">
+<img width="1784" alt="ResendEmail1" src="https://github.com/Muhamadfikri20/laravel-fic7-muhamadfikri/assets/46203393/ec48823b-d82b-4904-b6b6-cfc204f05bc9">
+<img width="915" alt="resendEmailpit" src="https://github.com/Muhamadfikri20/laravel-fic7-muhamadfikri/assets/46203393/1b9c8807-13c5-4814-9913-e9abecd9cee2">
+<img width="1785" alt="verify Email pit" src="https://github.com/Muhamadfikri20/laravel-fic7-muhamadfikri/assets/46203393/71fa7b9b-290a-44f9-b86a-2e73513d778e">
+<img width="1785" alt="VerifyEmail1" src="https://github.com/Muhamadfikri20/laravel-fic7-muhamadfikri/assets/46203393/d3ddda89-3a75-46b4-b130-bb033ae3ec68">
+<img width="1785" alt="VerifyForgotPassword" src="https://github.com/Muhamadfikri20/laravel-fic7-muhamadfikri/assets/46203393/01041a42-9aa7-4c8a-bf98-9ba25d6241c1">
+](url)
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
