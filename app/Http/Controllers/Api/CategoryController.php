@@ -5,9 +5,17 @@ namespace App\Http\Controllers\Api;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Category;
+use App\Policies\CategoryPolicy;
 
 class CategoryController extends Controller
 {
+
+ public function __construct()
+ {
+    $this->middleware('auth:sanctum')->except(['index', 'show']);
+    $this->authorizeResource(Category::class, 'category');
+
+ }
     /**
      * Display a listing of the resource.
      */
@@ -36,7 +44,7 @@ class CategoryController extends Controller
      */
     public function show(Category $category)
     {
-        // $category->load('products');
+         $category->load('products');
         return $category;
     }
 
@@ -56,10 +64,9 @@ class CategoryController extends Controller
     }
 
 
-    public function destroy(string $id)
+    public function destroy(Category $category)
     {
-        //  
-        // $category->delete();
+        $category->delete();
 
         return response(status: 204);
     }
