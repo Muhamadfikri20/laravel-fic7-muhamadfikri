@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Api\AuthController;
 use App\Http\Controllers\Api\UploadController;
+use App\Http\Controllers\Api\OrderController;
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -29,6 +30,7 @@ Route::post('image/upload', [UploadController::class, 'uploadImage'])
     ->middleware('auth:sanctum');
 Route::post('image/upload-multiple', [UploadController::class, 'uploadMultipleImage'])
     ->middleware('auth:sanctum');
-
+Route::post('orders', [OrderController::class, 'order'])
+    ->middleware('auth:sanctum');
 Route::apiResource('categories', CategoryController::class);
 Route::apiResource('products', ProductController::class);
